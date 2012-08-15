@@ -1,0 +1,19 @@
+###GeflLogger for Weblogic Configuration ###
+graylogHost: localhost
+debug: false
+logs:
+ - path: "/usr/home/startM1.log"
+   pattern: weblogic
+   host: default
+   facility: m1
+   fields:
+    - type: stdlog
+    - version: "1"
+
+ - path: "/usr/home/startM2.log"
+   pattern: weblogic
+   host: default
+   facility: m2
+   fields:
+    - type: stdlog
+    - version: "2" 
