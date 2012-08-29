@@ -8,6 +8,7 @@ in the same directory as the jar file.
 The project is set up with Netbeans 7.1.2 and requires the following libraries snakeyaml-1.10 and json-simple-1.1.1.
 
 This version of GelfLogger was designed to work with Weblogic output server log. It can detect inline log level and BEA/ORA error code and forward those to Graylog2 server, automatically.
+Furthermore, GelfLogger can continuously run after the log file has rotated, it will detect the new log file automatically. 
 
 ### How it works
 
